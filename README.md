@@ -76,20 +76,18 @@ Javascript send data
             return false;
         }
    </pre>
-   
    <pre>
    our html looks like this
       <form id="login-form" method="post" onsubmit="return LoginUser()" role="form" style="display: block;">
       
    it has hidden input field sets the _token value which checks in Login Controller
-   
-      <input type="hidden" name="_token" value="HEmuStR1wyJ4GAvE4zVwQ9nq14ZZ0YGw5yWHncIp">
+    
+      name="_token" value="HEmuStR1wyJ4GAvE4zVwQ9nq14ZZ0YGw5yWHncIp
       
-      <input type="text" name="email" tabindex="1" class="form-control" placeholder="email" value="">
+      type="text" name="email"
                                                                           
-      <input type="password" name="password" tabindex="2" class="form-control" placeholder="password">
+      type="password" name="password"
                                          
-
  Finally our Require fields to bruteforce this login is 
   1 => _token
   2 => email
@@ -116,3 +114,5 @@ sys	0m0.631s
 Source code for the laravel app https://github.com/topza1412/Laravel-ajax-login-register
 
 I cloned randomly and tested my skill !!!!..
+
+</pre>
